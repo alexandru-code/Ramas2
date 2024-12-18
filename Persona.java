@@ -11,4 +11,8 @@ public class Persona {
     public String toString(){
         return this.nombre + " - " + this.edad;
     }
+
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
 }
